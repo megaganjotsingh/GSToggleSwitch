@@ -9,45 +9,84 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var toggle: ToggleSwitch?
-    var tapNum = 0
+    var toggle1 = ToggleSwitch()
+    var toggle2 = ToggleSwitch()
+    @IBOutlet var toggle3: ToggleSwitch!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupToggle()
+        setupToggle1()
+        setupToggle2()
+        setupToggle3()
     }
 
-    func setupToggle() {
-        toggle = .init(
+    func setupToggle1() {
+        toggle1.set(
             properties: { prop in
                 prop.width = 40
                 prop.height = 20
                 prop.cornerRadius = 10
-                prop.thumbBackgroundColor = .white
                 prop.onBackgroundColor = .green
-                prop.showThumbShadow = true
+                prop.thumbProperties.showThumbShadow = true
+                prop.thumbProperties.backgroundColor = .white
             },
             tapOnSwitch: { [weak self] in
                 guard let self = self else { return .off }
                 self.showAlert()
-                return self.toggle?.currentState ?? .off
+                return self.toggle1.currentState
             }
         )
-        guard let toggle = toggle else { return }
-        toggle.currentState = .on
-        view.addSubview(toggle)
-        toggle.center = CGPoint(x: 200, y: 200)
+        toggle1.currentState = .on
+        view.addSubview(toggle1)
+        toggle1.center = CGPoint(x: 200, y: 200)
+    }
+    
+    func setupToggle2() {
+        toggle2.set(
+            properties: { prop in
+                prop.onBackgroundColor = .systemBlue.withAlphaComponent(0.15)
+                prop.thumbProperties.showThumbShadow = true
+                prop.thumbProperties.backgroundColor = .white
+                prop.thumbProperties.thumbOnImage = UIImage(named: "sun")
+                prop.thumbProperties.thumbOffImage = UIImage(named: "moon")
+            },
+            tapOnSwitch: { [weak self] in
+                guard let self = self else { return .off }
+                return self.toggle2.oppositeState
+            }
+        )
+        toggle2.currentState = .on
+        view.addSubview(toggle2)
+        toggle2.center = CGPoint(x: 200, y: 250)
     }
     
     func showAlert() {
         let alert = UIAlertController(title: "Change", message: "Change the current state by tapping yes and tap no to dismiss the alert", preferredStyle: .alert)
         let yesAction = UIAlertAction(title: "Yes", style: .default) { [weak self] _ in
-            self?.toggle?.currentState = self?.toggle?.oppositeState ?? .on
+            self?.toggle1.currentState = self?.toggle1.oppositeState ?? .on
         }
         let noAction = UIAlertAction(title: "No", style: .default)
         alert.addAction(yesAction)
         alert.addAction(noAction)
         present(alert, animated: true)
+    }
+    
+    func setupToggle3() {
+        toggle3.set(
+            properties: { prop in
+                prop.width = 45 // same width as given in storyboard
+                prop.height = 20 // same height as given in storyboard
+                prop.cornerRadius = 5
+                prop.onBackgroundColor = .red
+                prop.thumbProperties.showThumbShadow = true
+                prop.thumbProperties.backgroundColor = .white
+            },
+            tapOnSwitch: { [weak self] in
+                guard let self = self else { return .off }
+                return self.toggle3.oppositeState
+            }
+        )
+        toggle3.currentState = .on
     }
 }
 

@@ -6,21 +6,7 @@
 //
 
 import Foundation
-import UIKit
-
-struct ToggleProperties {
-    var width: CGFloat = 80
-    var height: CGFloat = 40
-    var cornerRadius: CGFloat = 20
-    var backgroundColor: UIColor = .gray
-    var onBackgroundColor: UIColor = .yellow
-    var thumbProperties: ThumbProperties = .init()
-    
-    struct ThumbProperties {
-        var backgroundColor: UIColor = .red
-        var showThumbShadow: Bool = true
-    }
-}
+import UIKit.UIView
 
 class ToggleSwitch: UIView {
     enum State {
@@ -28,14 +14,10 @@ class ToggleSwitch: UIView {
         case off
     }
     
-    var thumb: UIView = .init()
+    var thumb: ThumbView = .init()
     var onBackgroundView: UIView = .init()
     var tapOnSwitch: (() -> (State?))?
-    var properties = ToggleProperties() {
-        didSet {
-            updateAllProperties()
-        }
-    }
+    var properties = ToggleProperties()
     var currentState: State {
         get {
             thumb.frame.origin.x == 0 ? .off : .on
@@ -58,10 +40,10 @@ class ToggleSwitch: UIView {
         setupUI()
     }
     
-    convenience init(properties: @escaping (inout ToggleProperties) -> (), tapOnSwitch: @escaping () -> (State?)) {
-        self.init(frame: .zero)
+    func set(properties: @escaping (inout ToggleProperties) -> (), tapOnSwitch: @escaping () -> (State?)) {
         self.tapOnSwitch = tapOnSwitch
         properties(&self.properties)
+        thumb.properties = self.properties.thumbProperties
         setupUI()
     }
     
@@ -89,7 +71,7 @@ class ToggleSwitch: UIView {
     
     func updateAllProperties() {
         selfProperties()
-        thumbProperties()
+        thumb.updateProperties()
         backgroundViewProperties()
     }
     
@@ -99,18 +81,6 @@ class ToggleSwitch: UIView {
         layer.shadowColor = UIColor.black.withAlphaComponent(0.4).cgColor
         layer.masksToBounds = false
         layer.shadowRadius = 3
-    }
-    
-    func thumbProperties() {
-        thumb.layer.cornerRadius = properties.cornerRadius
-        thumb.backgroundColor = properties.thumbProperties.backgroundColor
-        if properties.thumbProperties.showThumbShadow {
-            thumb.layer.shadowColor = UIColor.black.withAlphaComponent(0.4).cgColor
-            thumb.layer.masksToBounds = false
-            thumb.layer.shadowRadius = 3
-            thumb.layer.shadowOffset = .zero
-            thumb.layer.shadowOpacity = 1
-        }
     }
     
     func backgroundViewProperties() {
@@ -135,6 +105,7 @@ class ToggleSwitch: UIView {
         UIView.animate(withDuration: 0.3) { [weak self] in
             self?.thumb.frame.origin.x = xTransition
             self?.onBackgroundView.frame.size.width = onBackgroundWidth
+            self?.thumb.setImage(withState: state)
         }
     }
 }

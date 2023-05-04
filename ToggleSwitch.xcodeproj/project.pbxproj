@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188A68F62A0401A7009EDB3D /* ThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A68F52A0401A7009EDB3D /* ThumbView.swift */; };
+		188A68F82A0401D4009EDB3D /* ToggleProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A68F72A0401D4009EDB3D /* ToggleProperties.swift */; };
 		84D6F8D729FFEC7E007AFE4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6F8D629FFEC7E007AFE4B /* AppDelegate.swift */; };
 		84D6F8D929FFEC7E007AFE4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6F8D829FFEC7E007AFE4B /* SceneDelegate.swift */; };
 		84D6F8DB29FFEC7E007AFE4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6F8DA29FFEC7E007AFE4B /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		188A68F52A0401A7009EDB3D /* ThumbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbView.swift; sourceTree = "<group>"; };
+		188A68F72A0401D4009EDB3D /* ToggleProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleProperties.swift; sourceTree = "<group>"; };
 		84D6F8D329FFEC7E007AFE4B /* ToggleSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToggleSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D6F8D629FFEC7E007AFE4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D6F8D829FFEC7E007AFE4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		188A68F42A040192009EDB3D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				84D6F8EA29FFEC91007AFE4B /* ToggleSwitch.swift */,
+				188A68F52A0401A7009EDB3D /* ThumbView.swift */,
+				188A68F72A0401D4009EDB3D /* ToggleProperties.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		84D6F8CA29FFEC7E007AFE4B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +72,7 @@
 		84D6F8D529FFEC7E007AFE4B /* ToggleSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				188A68F42A040192009EDB3D /* Source */,
 				84D6F8D629FFEC7E007AFE4B /* AppDelegate.swift */,
 				84D6F8D829FFEC7E007AFE4B /* SceneDelegate.swift */,
 				84D6F8DA29FFEC7E007AFE4B /* ViewController.swift */,
@@ -65,7 +80,6 @@
 				84D6F8DF29FFEC7F007AFE4B /* Assets.xcassets */,
 				84D6F8E129FFEC7F007AFE4B /* LaunchScreen.storyboard */,
 				84D6F8E429FFEC7F007AFE4B /* Info.plist */,
-				84D6F8EA29FFEC91007AFE4B /* ToggleSwitch.swift */,
 			);
 			path = ToggleSwitch;
 			sourceTree = "<group>";
@@ -143,8 +157,10 @@
 			files = (
 				84D6F8DB29FFEC7E007AFE4B /* ViewController.swift in Sources */,
 				84D6F8EB29FFEC91007AFE4B /* ToggleSwitch.swift in Sources */,
+				188A68F82A0401D4009EDB3D /* ToggleProperties.swift in Sources */,
 				84D6F8D729FFEC7E007AFE4B /* AppDelegate.swift in Sources */,
 				84D6F8D929FFEC7E007AFE4B /* SceneDelegate.swift in Sources */,
+				188A68F62A0401A7009EDB3D /* ThumbView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
