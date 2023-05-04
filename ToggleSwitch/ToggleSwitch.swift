@@ -13,9 +13,13 @@ struct ToggleProperties {
     var height: CGFloat = 40
     var cornerRadius: CGFloat = 20
     var backgroundColor: UIColor = .gray
-    var thumbBackgroundColor: UIColor = .red
     var onBackgroundColor: UIColor = .yellow
-    var showThumbShadow: Bool = true
+    var thumbProperties: ThumbProperties = .init()
+    
+    struct ThumbProperties {
+        var backgroundColor: UIColor = .red
+        var showThumbShadow: Bool = true
+    }
 }
 
 class ToggleSwitch: UIView {
@@ -99,8 +103,8 @@ class ToggleSwitch: UIView {
     
     func thumbProperties() {
         thumb.layer.cornerRadius = properties.cornerRadius
-        thumb.backgroundColor = properties.thumbBackgroundColor
-        if properties.showThumbShadow {
+        thumb.backgroundColor = properties.thumbProperties.backgroundColor
+        if properties.thumbProperties.showThumbShadow {
             thumb.layer.shadowColor = UIColor.black.withAlphaComponent(0.4).cgColor
             thumb.layer.masksToBounds = false
             thumb.layer.shadowRadius = 3
