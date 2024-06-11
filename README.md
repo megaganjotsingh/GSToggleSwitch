@@ -7,6 +7,22 @@ Demo
 
 ![](https://github.com/megaganjotsingh/ToggleSwitch/blob/main/Gifs/sample.gif)
 
+Installation
+ ---
+
+### [CocoaPods](http://cocoapods.org)
+
+  
+  To install GSToggleSwitch using CocoaPods, integrate it in your existing Podfile, or create a new Podfile:
+  
+  `  pod 'GSToggleSwitch', '~> 0.1'  `
+  
+### [Carthage](https://github.com/Carthage/Carthage)
+
+  To install add the following line to your Cartfile:
+
+  `github "megaganjotsingh/GSToggleSwitch" "main"`
+
 Easy to Use
   ---
   
