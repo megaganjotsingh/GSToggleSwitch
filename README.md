@@ -1,5 +1,7 @@
 # ToggleSwitch
 
+The ToggleSwitch library is a lightweight and easy-to-use solution for implementing customizable toggle switches in your iOS, MacOS and AppleVision projects. Designed to offer a visually appealing and interactive way to represent binary states (like on/off), this library is ideal for enhancing user interfaces with intuitive toggle controls.
+
 Demo
   ---
 
