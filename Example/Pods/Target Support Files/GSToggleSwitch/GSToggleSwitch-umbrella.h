@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ToggleSwitchVersionNumber;
-FOUNDATION_EXPORT const unsigned char ToggleSwitchVersionString[];
+FOUNDATION_EXPORT double GSToggleSwitchVersionNumber;
+FOUNDATION_EXPORT const unsigned char GSToggleSwitchVersionString[];
 

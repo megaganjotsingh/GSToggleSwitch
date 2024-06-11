@@ -53,7 +53,7 @@
 		6CC94931F4D3D6EC309BBD969BBB4A12 /* Pods-ToggleSwitch_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToggleSwitch_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		79310D017EDC0B46F4068EBE646EE96A /* Pods-ToggleSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToggleSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7CD5FEE5D2935F146EC01EB5220FFF37 /* Pods-ToggleSwitch_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ToggleSwitch_Example"; path = Pods_ToggleSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD5FEE5D2935F146EC01EB5220FFF37 /* Pods_ToggleSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToggleSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		802F02C9B86B7D8EFBAD8817B4F20CB8 /* Pods-ToggleSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToggleSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		80471C199BA63FD314614AF9095D23BE /* Pods-ToggleSwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToggleSwitch_Example-dummy.m"; sourceTree = "<group>"; };
 		93850C442C186E0C0086A1EF /* ThumbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbView.swift; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		EC6B9E4AA3A003E7A054EE22BC4A5444 /* Pods-ToggleSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToggleSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F65B49CA6D7F6E1475164978B2DB17E1 /* Pods-ToggleSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToggleSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F9205C515BA750BBA0901F9041B6F333 /* Pods-ToggleSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToggleSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
-		F9F44D559337F446FBB2B16D6CC90FA4 /* Pods-ToggleSwitch_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ToggleSwitch_Tests"; path = Pods_ToggleSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F44D559337F446FBB2B16D6CC90FA4 /* Pods_ToggleSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToggleSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,8 +165,8 @@
 		9210DB282C44302CDAD6EC718316C5AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CD5FEE5D2935F146EC01EB5220FFF37 /* Pods-ToggleSwitch_Example */,
-				F9F44D559337F446FBB2B16D6CC90FA4 /* Pods-ToggleSwitch_Tests */,
+				7CD5FEE5D2935F146EC01EB5220FFF37 /* Pods_ToggleSwitch_Example.framework */,
+				F9F44D559337F446FBB2B16D6CC90FA4 /* Pods_ToggleSwitch_Tests.framework */,
 				A2EA7B6E797A55CD3784AF245740F88D /* ToggleSwitch */,
 			);
 			name = Products;
@@ -283,7 +283,7 @@
 			);
 			name = "Pods-ToggleSwitch_Example";
 			productName = Pods_ToggleSwitch_Example;
-			productReference = 7CD5FEE5D2935F146EC01EB5220FFF37 /* Pods-ToggleSwitch_Example */;
+			productReference = 7CD5FEE5D2935F146EC01EB5220FFF37 /* Pods_ToggleSwitch_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A04A47369BB2BF6C61FBD5F559CDF69B /* Pods-ToggleSwitch_Tests */ = {
@@ -302,7 +302,7 @@
 			);
 			name = "Pods-ToggleSwitch_Tests";
 			productName = Pods_ToggleSwitch_Tests;
-			productReference = F9F44D559337F446FBB2B16D6CC90FA4 /* Pods-ToggleSwitch_Tests */;
+			productReference = F9F44D559337F446FBB2B16D6CC90FA4 /* Pods_ToggleSwitch_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BA8B4F535EC9674B19DDB29B01B264ED /* ToggleSwitch */ = {

@@ -1,0 +1,6 @@
+framework module GSToggleSwitch {
+  umbrella header "GSToggleSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

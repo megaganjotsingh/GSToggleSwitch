@@ -1,6 +1,0 @@
-framework module ToggleSwitch {
-  umbrella header "ToggleSwitch-umbrella.h"
-
-  export *
-  module * { export * }
-}

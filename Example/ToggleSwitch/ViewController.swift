@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import ToggleSwitch
+import GSToggleSwitch
 
 class ViewController: UIViewController {
     
