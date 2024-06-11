@@ -1,33 +1,29 @@
 # ToggleSwitch
 
-Demo
-  ---
+[![CI Status](https://img.shields.io/travis/megaganjotsingh/ToggleSwitch.svg?style=flat)](https://travis-ci.org/megaganjotsingh/ToggleSwitch)
+[![Version](https://img.shields.io/cocoapods/v/ToggleSwitch.svg?style=flat)](https://cocoapods.org/pods/ToggleSwitch)
+[![License](https://img.shields.io/cocoapods/l/ToggleSwitch.svg?style=flat)](https://cocoapods.org/pods/ToggleSwitch)
+[![Platform](https://img.shields.io/cocoapods/p/ToggleSwitch.svg?style=flat)](https://cocoapods.org/pods/ToggleSwitch)
 
-![](https://github.com/megaganjotsingh/ToggleSwitch/blob/main/Gifs/sample.gif)
+## Example
 
-Easy to Use
-  ---
-  
-  ### You can simply set all the properties in simple way
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-  ```swift
-         toggleSwitch.set(
-            properties: { prop in
-                prop.width = 40
-                prop.height = 20
-                prop.cornerRadius = 10
-                prop.onBackgroundColor = .green
-                prop.thumbProperties.showThumbShadow = true
-                prop.thumbProperties.backgroundColor = .white
-            },
-            tapOnSwitch: { [weak self] in
-                guard let self = self else { return .off }
-                return self.toggle1.currentState
-            }
-        )
-  ```
-  
-  Collaboration
----
+## Requirements
 
-I tried to build an easy to use API, but I'm sure there are ways of improving and adding more features, If you think that we can do the ToggleSwitch more powerful please contribute with this project.
+## Installation
+
+ToggleSwitch is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'ToggleSwitch'
+```
+
+## Author
+
+megaganjotsingh, megaganjotsingh@gmail.com
+
+## License
+
+ToggleSwitch is available under the MIT license. See the LICENSE file for more info.

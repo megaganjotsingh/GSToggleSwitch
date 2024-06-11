@@ -1,0 +1,16 @@
+PODS:
+  - ToggleSwitch (0.1.0)
+
+DEPENDENCIES:
+  - ToggleSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  ToggleSwitch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ToggleSwitch: 0bc1512e2670b0174203c3d6ca40dff00fbb25b4
+
+PODFILE CHECKSUM: 23a3fe191acbeeb973d08b4a1f2efb98420d295d
+
+COCOAPODS: 1.14.3
