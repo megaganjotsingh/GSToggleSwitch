@@ -29,8 +29,8 @@ The ToggleSwitch library is a lightweight and easy-to-use solution for implement
   # s.social_media_url = 'www.linkedin.com/in/gaganjot-singh-40b40b100'
 
   s.ios.deployment_target = '10.0'
-
-  s.source_files = 'ToggleSwitch/Classes/**/*'
+  s.swift_version = '5.0'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'ToggleSwitch' => ['ToggleSwitch/Assets/*.png']
