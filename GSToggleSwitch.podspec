@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ToggleSwitch'
+  s.name             = 'GSToggleSwitch'
   s.version          = '0.1.0'
   s.summary          = 'An animate switch collection, Add Beautiful Customise Switch in your application to boost UI and UX.'
 
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 The ToggleSwitch library is a lightweight and easy-to-use solution for implementing customizable toggle switches in your iOS, MacOS and AppleVision projects. Designed to offer a visually appealing and interactive way to represent binary states (like on/off), this library is ideal for enhancing user interfaces with intuitive toggle controls.
                        DESC
 
-  s.homepage         = 'https://github.com/megaganjotsingh/ToggleSwitch'
+  s.homepage         = 'https://github.com/megaganjotsingh/GSToggleSwitch'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'megaganjotsingh' => 'megaganjotsingh@gmail.com' }
-  s.source           = { :git => 'https://github.com/megaganjotsingh/ToggleSwitch.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/megaganjotsingh/GSToggleSwitch.git', :tag => s.version.to_s }
   # s.social_media_url = 'www.linkedin.com/in/gaganjot-singh-40b40b100'
 
   s.ios.deployment_target = '10.0'

@@ -67,7 +67,7 @@
 		B75384AC40FE66226511CC66BF6E750D /* Pods-ToggleSwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToggleSwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C26F7CEADFE7115FA82B12384DD79251 /* ToggleSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToggleSwitch-prefix.pch"; sourceTree = "<group>"; };
 		C938646B5BCE6FFD5472C63B9E3A3915 /* ToggleSwitch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ToggleSwitch-Info.plist"; sourceTree = "<group>"; };
-		CD7EE41530C312B62C0D363C21296DFC /* ToggleSwitch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ToggleSwitch.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		CD7EE41530C312B62C0D363C21296DFC /* GSToggleSwitch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GSToggleSwitch.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		D9898B020B3F5838C9F41FE94676FC9B /* Pods-ToggleSwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToggleSwitch_Tests.modulemap"; sourceTree = "<group>"; };
 		EA8EAF86C50AECA7B33A0053D0F58C83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EC6B9E4AA3A003E7A054EE22BC4A5444 /* Pods-ToggleSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToggleSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		02BF9E605174FC323FEE2068B2A84A24 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				48756978B335A51EC5369CE85F48D9B0 /* ToggleSwitch */,
+				48756978B335A51EC5369CE85F48D9B0 /* GSToggleSwitch */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -143,14 +143,14 @@
 			path = "Target Support Files/Pods-ToggleSwitch_Tests";
 			sourceTree = "<group>";
 		};
-		48756978B335A51EC5369CE85F48D9B0 /* ToggleSwitch */ = {
+		48756978B335A51EC5369CE85F48D9B0 /* GSToggleSwitch */ = {
 			isa = PBXGroup;
 			children = (
 				93850C472C186E0C0086A1EF /* Classes */,
 				E55185F008FDD2812F83FDF3F5E73B54 /* Pod */,
 				040EE4C73A1169EE072C96B1F0335E48 /* Support Files */,
 			);
-			name = ToggleSwitch;
+			name = GSToggleSwitch;
 			path = ../..;
 			sourceTree = "<group>";
 		};
@@ -232,7 +232,7 @@
 			children = (
 				2728DA4E65C6BD20356992D8F694136F /* LICENSE */,
 				EA8EAF86C50AECA7B33A0053D0F58C83 /* README.md */,
-				CD7EE41530C312B62C0D363C21296DFC /* ToggleSwitch.podspec */,
+				CD7EE41530C312B62C0D363C21296DFC /* GSToggleSwitch.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";

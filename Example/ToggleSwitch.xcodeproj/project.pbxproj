@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* ToggleSwitch_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToggleSwitch_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8427BC5746906B234B83225F /* ToggleSwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ToggleSwitch.podspec; path = ../ToggleSwitch.podspec; sourceTree = "<group>"; };
+		8427BC5746906B234B83225F /* GSToggleSwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GSToggleSwitch.podspec; path = ../GSToggleSwitch.podspec; sourceTree = "<group>"; };
 		9D7034467917CA2A97195153 /* Pods-ToggleSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToggleSwitch_Example.debug.xcconfig"; path = "Target Support Files/Pods-ToggleSwitch_Example/Pods-ToggleSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B0EF7CF0BF67F38500ED6809 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B9E16201FCDB8E4C0C44399C /* Pods_ToggleSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToggleSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,7 +141,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				8427BC5746906B234B83225F /* ToggleSwitch.podspec */,
+				8427BC5746906B234B83225F /* GSToggleSwitch.podspec */,
 				B0EF7CF0BF67F38500ED6809 /* README.md */,
 				1EEDF8F075EBF6C9D0CA4207 /* LICENSE */,
 			);
