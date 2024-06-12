@@ -7,151 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B1232B1895CE99CCA9993AB8D9970AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		19AF4CCECEC02C4FFC9145BDAA74EF1D /* ToggleSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 259103F9D9AAD08E46132DA5779EBF71 /* ToggleSwitch-dummy.m */; };
-		82F845CF7CBD386B56BF4AE9E744BFAF /* Pods-ToggleSwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80471C199BA63FD314614AF9095D23BE /* Pods-ToggleSwitch_Example-dummy.m */; };
-		93850C482C186E0C0086A1EF /* ThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93850C442C186E0C0086A1EF /* ThumbView.swift */; };
-		93850C492C186E0C0086A1EF /* ToggleProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93850C452C186E0C0086A1EF /* ToggleProperties.swift */; };
-		93850C4A2C186E0C0086A1EF /* ToggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93850C462C186E0C0086A1EF /* ToggleSwitch.swift */; };
-		9DA4287E466F4207950A74818BE6621B /* Pods-ToggleSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9205C515BA750BBA0901F9041B6F333 /* Pods-ToggleSwitch_Tests-dummy.m */; };
-		B5CC3FC6F47E7DE022ED29E3CD1801C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CF90597913815CD582A520B0A3648DB0 /* Pods-ToggleSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0336EB00DBDE1AAF8888BC2A0D602E39 /* Pods-ToggleSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2D2D05977FBBF4DAA703829F8AA2C69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E2B9890BBF0D205C0FF6BBA751597DA7 /* ToggleSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F12590DA5778F41BA2CA314E6B0B551 /* ToggleSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB5457410FF9B82283A8855498BB150E /* Pods-ToggleSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 965059DC5AF1B6E911E561F39EE389B3 /* Pods-ToggleSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11EB4A5B66BA137FF64F4976080BAAF5 /* GSToggleSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4243BE2CCA66C17B4D36F8FA61F68E50 /* GSToggleSwitch-dummy.m */; };
+		133B57D68B79D6C753C940B49199A1E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		32AB6A6C87BBF34FDCB2F44D3A48AC54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		367E5310866E5778A8914E4506F504DC /* Pods-GSToggleSwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57914AD5385FD71F481B3177B42EBFD6 /* Pods-GSToggleSwitch_Example-dummy.m */; };
+		49DDA680EF38C9E98C4A4080074937B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7CF43AEE504B47D3DDC4392943C5D302 /* GSToggleSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 779DD6A42C2DFC99FB99C1FC366D73F0 /* GSToggleSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		936FC47B2C19750C00D29B46 /* ThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936FC4772C19750C00D29B46 /* ThumbView.swift */; };
+		936FC47C2C19750C00D29B46 /* ToggleProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936FC4782C19750C00D29B46 /* ToggleProperties.swift */; };
+		936FC47D2C19750C00D29B46 /* GSToggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936FC4792C19750C00D29B46 /* GSToggleSwitch.swift */; };
+		D212D9122B890C4829B570C91AC3BC1F /* Pods-GSToggleSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 155BA1863B91D8E73612684AD22D9688 /* Pods-GSToggleSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0D5859C71EAA14EA47B7405E62371EE /* Pods-GSToggleSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34B3538B08F9FFEF33509F782517C1 /* Pods-GSToggleSwitch_Tests-dummy.m */; };
+		E6FBAFA5EF54C0ACC32E29BE7A204A0C /* Pods-GSToggleSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D381ACCFB0C3AB7FD9E06208AE6963C3 /* Pods-GSToggleSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		98C62F154A623602CE0C82601DBDD501 /* PBXContainerItemProxy */ = {
+		A398895FACB8E8DA707157CF67D2C631 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BA8B4F535EC9674B19DDB29B01B264ED;
-			remoteInfo = ToggleSwitch;
+			remoteGlobalIDString = D41C5D6C287AB62AA0E16ACB7B5C7C6D;
+			remoteInfo = GSToggleSwitch;
 		};
-		FE87CB0F3CACC77811827F2AF43AF413 /* PBXContainerItemProxy */ = {
+		F82E18F5C55B9E6AB5BB41DFF01268C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 21259D6369A1C9B0F74E34E9D78DA07E;
-			remoteInfo = "Pods-ToggleSwitch_Example";
+			remoteGlobalIDString = AEAE43D277F3A1E4D29C1D1C559C4ED2;
+			remoteInfo = "Pods-GSToggleSwitch_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0336EB00DBDE1AAF8888BC2A0D602E39 /* Pods-ToggleSwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToggleSwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0620FC045EACC57BF107C10C7D25A6A1 /* Pods-ToggleSwitch_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToggleSwitch_Tests-Info.plist"; sourceTree = "<group>"; };
-		10EE6FBA7378FD960A5135FFCB44385A /* Pods-ToggleSwitch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToggleSwitch_Example.modulemap"; sourceTree = "<group>"; };
-		242D92ECF61143F2236C5100DD177CF7 /* ToggleSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ToggleSwitch.debug.xcconfig; sourceTree = "<group>"; };
-		259103F9D9AAD08E46132DA5779EBF71 /* ToggleSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ToggleSwitch-dummy.m"; sourceTree = "<group>"; };
-		2728DA4E65C6BD20356992D8F694136F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		353B8D2659964AAA2CAD6A545EF6F8E6 /* Pods-ToggleSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToggleSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		36A868CE04811CFF6B50CD00C7363918 /* Pods-ToggleSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToggleSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		454A3CB228CB6BB76EABADBCDF32BFA4 /* ToggleSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ToggleSwitch.modulemap; sourceTree = "<group>"; };
-		5F12590DA5778F41BA2CA314E6B0B551 /* ToggleSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToggleSwitch-umbrella.h"; sourceTree = "<group>"; };
-		63074C692FD74B2E9345254A076BCCBE /* Pods-ToggleSwitch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToggleSwitch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6CC94931F4D3D6EC309BBD969BBB4A12 /* Pods-ToggleSwitch_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToggleSwitch_Example-Info.plist"; sourceTree = "<group>"; };
+		155BA1863B91D8E73612684AD22D9688 /* Pods-GSToggleSwitch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSToggleSwitch_Example-umbrella.h"; sourceTree = "<group>"; };
+		296AC28CC983F6B2B1035C9278DBCF1F /* GSToggleSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSToggleSwitch-prefix.pch"; sourceTree = "<group>"; };
+		2FF9C202907E4CE7142B98CDDEA352ED /* Pods-GSToggleSwitch_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSToggleSwitch_Example-Info.plist"; sourceTree = "<group>"; };
+		305DFDBFAE7926DF843900BCFAC32559 /* Pods-GSToggleSwitch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GSToggleSwitch_Example.modulemap"; sourceTree = "<group>"; };
+		32347FB41F37E8CEE569318D86C48EB8 /* Pods-GSToggleSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSToggleSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4243BE2CCA66C17B4D36F8FA61F68E50 /* GSToggleSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSToggleSwitch-dummy.m"; sourceTree = "<group>"; };
+		504FA1FD1816779D56B4364ECBB1A420 /* GSToggleSwitch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GSToggleSwitch-Info.plist"; sourceTree = "<group>"; };
+		5147DFC3F6C4B03734751718D4C1C727 /* GSToggleSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSToggleSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57914AD5385FD71F481B3177B42EBFD6 /* Pods-GSToggleSwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSToggleSwitch_Example-dummy.m"; sourceTree = "<group>"; };
+		65109B15B3F832F0396EF0769E189990 /* GSToggleSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GSToggleSwitch.modulemap; sourceTree = "<group>"; };
+		70FF886FBBEDF223E376EB769D39A273 /* GSToggleSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSToggleSwitch.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		79310D017EDC0B46F4068EBE646EE96A /* Pods-ToggleSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToggleSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7CD5FEE5D2935F146EC01EB5220FFF37 /* Pods_ToggleSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToggleSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		802F02C9B86B7D8EFBAD8817B4F20CB8 /* Pods-ToggleSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToggleSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
-		80471C199BA63FD314614AF9095D23BE /* Pods-ToggleSwitch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToggleSwitch_Example-dummy.m"; sourceTree = "<group>"; };
-		93850C442C186E0C0086A1EF /* ThumbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbView.swift; sourceTree = "<group>"; };
-		93850C452C186E0C0086A1EF /* ToggleProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleProperties.swift; sourceTree = "<group>"; };
-		93850C462C186E0C0086A1EF /* ToggleSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleSwitch.swift; sourceTree = "<group>"; };
-		965059DC5AF1B6E911E561F39EE389B3 /* Pods-ToggleSwitch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToggleSwitch_Example-umbrella.h"; sourceTree = "<group>"; };
+		754F07930520C371667E0BDF6A35648C /* GSToggleSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSToggleSwitch.debug.xcconfig; sourceTree = "<group>"; };
+		779DD6A42C2DFC99FB99C1FC366D73F0 /* GSToggleSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSToggleSwitch-umbrella.h"; sourceTree = "<group>"; };
+		78EFB9244D2F2ABF77C1D262F6418078 /* GSToggleSwitch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GSToggleSwitch.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		7BBBDDDF9101645447D0B7B5C3484381 /* Pods-GSToggleSwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GSToggleSwitch_Tests.modulemap"; sourceTree = "<group>"; };
+		7EC12A2E2349D8EBC65BD19E666E7A89 /* Pods-GSToggleSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSToggleSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		901D5D3F1D1CA0E8E8ADB3526F0F8E10 /* Pods_GSToggleSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSToggleSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		936FA3F37B8EC9FB181A480B8CA2C72A /* Pods-GSToggleSwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSToggleSwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		936FC4772C19750C00D29B46 /* ThumbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbView.swift; sourceTree = "<group>"; };
+		936FC4782C19750C00D29B46 /* ToggleProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleProperties.swift; sourceTree = "<group>"; };
+		936FC4792C19750C00D29B46 /* GSToggleSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSToggleSwitch.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2EA7B6E797A55CD3784AF245740F88D /* ToggleSwitch */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ToggleSwitch; path = ToggleSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC00109EB1DCBB92FA1E05EFC72A6078 /* ToggleSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ToggleSwitch.release.xcconfig; sourceTree = "<group>"; };
-		AE03A4AC3908ED46E88A09555D85BA82 /* Pods-ToggleSwitch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToggleSwitch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B75384AC40FE66226511CC66BF6E750D /* Pods-ToggleSwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToggleSwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C26F7CEADFE7115FA82B12384DD79251 /* ToggleSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToggleSwitch-prefix.pch"; sourceTree = "<group>"; };
-		C938646B5BCE6FFD5472C63B9E3A3915 /* ToggleSwitch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ToggleSwitch-Info.plist"; sourceTree = "<group>"; };
-		CD7EE41530C312B62C0D363C21296DFC /* GSToggleSwitch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GSToggleSwitch.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		D9898B020B3F5838C9F41FE94676FC9B /* Pods-ToggleSwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToggleSwitch_Tests.modulemap"; sourceTree = "<group>"; };
-		EA8EAF86C50AECA7B33A0053D0F58C83 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		EC6B9E4AA3A003E7A054EE22BC4A5444 /* Pods-ToggleSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToggleSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F65B49CA6D7F6E1475164978B2DB17E1 /* Pods-ToggleSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToggleSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F9205C515BA750BBA0901F9041B6F333 /* Pods-ToggleSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToggleSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
-		F9F44D559337F446FBB2B16D6CC90FA4 /* Pods_ToggleSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToggleSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B1000E4E26C4C03ACC363F5EDC33AC /* Pods-GSToggleSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSToggleSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ACC9400BDB9B2022492ECE6C0889B35A /* Pods_GSToggleSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSToggleSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03F0F9AB4C86A1542D901BE6ED35129 /* Pods-GSToggleSwitch_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSToggleSwitch_Tests-Info.plist"; sourceTree = "<group>"; };
+		C796BEAD637B0B3D53EA24AFC758085D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D381ACCFB0C3AB7FD9E06208AE6963C3 /* Pods-GSToggleSwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSToggleSwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DB420552E1960B5ECEA284F85AFBBBBE /* Pods-GSToggleSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSToggleSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5C0B6E6B83C69F62D447E95B066DE79 /* Pods-GSToggleSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSToggleSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E60CA374C3F6C28BCF80E87189A73A59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EEFB1EBD2F6057E7D9CFA59408AD9258 /* Pods-GSToggleSwitch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSToggleSwitch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F64CFAFBF56A07A866382BEAA272ABB6 /* Pods-GSToggleSwitch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSToggleSwitch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7CADD6FCC77F64D264C72D03B16674D /* Pods-GSToggleSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSToggleSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF34B3538B08F9FFEF33509F782517C1 /* Pods-GSToggleSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSToggleSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B4D9CBFF71E7448B03745F96C43486C /* Frameworks */ = {
+		51E279BD448FB6AE654E7C93D73ED48D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5CC3FC6F47E7DE022ED29E3CD1801C4 /* Foundation.framework in Frameworks */,
+				133B57D68B79D6C753C940B49199A1E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1C653457030E1886CEA2B3FE1515ED91 /* Frameworks */ = {
+		81DF7AF01F6B23D703E49A86EF342B93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D2D05977FBBF4DAA703829F8AA2C69 /* Foundation.framework in Frameworks */,
+				49DDA680EF38C9E98C4A4080074937B8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D159D9456D08507EFCD1D3D090353F4 /* Frameworks */ = {
+		BD4A3B7ED3D6DC98D74EC906E4BF35FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B1232B1895CE99CCA9993AB8D9970AD /* Foundation.framework in Frameworks */,
+				32AB6A6C87BBF34FDCB2F44D3A48AC54 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02BF9E605174FC323FEE2068B2A84A24 /* Development Pods */ = {
+		04F7F92955E5BD1AA6D1A89CDFD14EF3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				48756978B335A51EC5369CE85F48D9B0 /* GSToggleSwitch */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		040EE4C73A1169EE072C96B1F0335E48 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				454A3CB228CB6BB76EABADBCDF32BFA4 /* ToggleSwitch.modulemap */,
-				259103F9D9AAD08E46132DA5779EBF71 /* ToggleSwitch-dummy.m */,
-				C938646B5BCE6FFD5472C63B9E3A3915 /* ToggleSwitch-Info.plist */,
-				C26F7CEADFE7115FA82B12384DD79251 /* ToggleSwitch-prefix.pch */,
-				5F12590DA5778F41BA2CA314E6B0B551 /* ToggleSwitch-umbrella.h */,
-				242D92ECF61143F2236C5100DD177CF7 /* ToggleSwitch.debug.xcconfig */,
-				AC00109EB1DCBB92FA1E05EFC72A6078 /* ToggleSwitch.release.xcconfig */,
+				65109B15B3F832F0396EF0769E189990 /* GSToggleSwitch.modulemap */,
+				4243BE2CCA66C17B4D36F8FA61F68E50 /* GSToggleSwitch-dummy.m */,
+				504FA1FD1816779D56B4364ECBB1A420 /* GSToggleSwitch-Info.plist */,
+				296AC28CC983F6B2B1035C9278DBCF1F /* GSToggleSwitch-prefix.pch */,
+				779DD6A42C2DFC99FB99C1FC366D73F0 /* GSToggleSwitch-umbrella.h */,
+				754F07930520C371667E0BDF6A35648C /* GSToggleSwitch.debug.xcconfig */,
+				70FF886FBBEDF223E376EB769D39A273 /* GSToggleSwitch.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ToggleSwitch";
+			path = "Example/Pods/Target Support Files/GSToggleSwitch";
 			sourceTree = "<group>";
 		};
-		3D75F2CEFE95496C5D139228727A8A03 /* Pods-ToggleSwitch_Tests */ = {
+		21CD57957D90D868A80124AB3189A71D /* GSToggleSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				D9898B020B3F5838C9F41FE94676FC9B /* Pods-ToggleSwitch_Tests.modulemap */,
-				AE03A4AC3908ED46E88A09555D85BA82 /* Pods-ToggleSwitch_Tests-acknowledgements.markdown */,
-				79310D017EDC0B46F4068EBE646EE96A /* Pods-ToggleSwitch_Tests-acknowledgements.plist */,
-				F9205C515BA750BBA0901F9041B6F333 /* Pods-ToggleSwitch_Tests-dummy.m */,
-				0620FC045EACC57BF107C10C7D25A6A1 /* Pods-ToggleSwitch_Tests-Info.plist */,
-				0336EB00DBDE1AAF8888BC2A0D602E39 /* Pods-ToggleSwitch_Tests-umbrella.h */,
-				EC6B9E4AA3A003E7A054EE22BC4A5444 /* Pods-ToggleSwitch_Tests.debug.xcconfig */,
-				353B8D2659964AAA2CAD6A545EF6F8E6 /* Pods-ToggleSwitch_Tests.release.xcconfig */,
-			);
-			name = "Pods-ToggleSwitch_Tests";
-			path = "Target Support Files/Pods-ToggleSwitch_Tests";
-			sourceTree = "<group>";
-		};
-		48756978B335A51EC5369CE85F48D9B0 /* GSToggleSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				93850C472C186E0C0086A1EF /* Classes */,
-				E55185F008FDD2812F83FDF3F5E73B54 /* Pod */,
-				040EE4C73A1169EE072C96B1F0335E48 /* Support Files */,
+				936FC47A2C19750C00D29B46 /* Classes */,
+				5E439E75E1F402628068DA2F74466CEF /* Pod */,
+				04F7F92955E5BD1AA6D1A89CDFD14EF3 /* Support Files */,
 			);
 			name = GSToggleSwitch;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		54A3F6192A1A785A20A784D0AC4485D6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21CD57957D90D868A80124AB3189A71D /* GSToggleSwitch */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -162,51 +146,61 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9210DB282C44302CDAD6EC718316C5AC /* Products */ = {
+		5E439E75E1F402628068DA2F74466CEF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7CD5FEE5D2935F146EC01EB5220FFF37 /* Pods_ToggleSwitch_Example.framework */,
-				F9F44D559337F446FBB2B16D6CC90FA4 /* Pods_ToggleSwitch_Tests.framework */,
-				A2EA7B6E797A55CD3784AF245740F88D /* ToggleSwitch */,
+				78EFB9244D2F2ABF77C1D262F6418078 /* GSToggleSwitch.podspec */,
+				C796BEAD637B0B3D53EA24AFC758085D /* LICENSE */,
+				E60CA374C3F6C28BCF80E87189A73A59 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		84E7D4F2EAA0BD33E8149EE31995FE86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5147DFC3F6C4B03734751718D4C1C727 /* GSToggleSwitch.framework */,
+				901D5D3F1D1CA0E8E8ADB3526F0F8E10 /* Pods_GSToggleSwitch_Example.framework */,
+				ACC9400BDB9B2022492ECE6C0889B35A /* Pods_GSToggleSwitch_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93850C472C186E0C0086A1EF /* Classes */ = {
+		92FA4BB078259E3652B7971358F4B0DE /* Pods-GSToggleSwitch_Example */ = {
 			isa = PBXGroup;
 			children = (
-				93850C442C186E0C0086A1EF /* ThumbView.swift */,
-				93850C452C186E0C0086A1EF /* ToggleProperties.swift */,
-				93850C462C186E0C0086A1EF /* ToggleSwitch.swift */,
+				305DFDBFAE7926DF843900BCFAC32559 /* Pods-GSToggleSwitch_Example.modulemap */,
+				936FA3F37B8EC9FB181A480B8CA2C72A /* Pods-GSToggleSwitch_Example-acknowledgements.markdown */,
+				EEFB1EBD2F6057E7D9CFA59408AD9258 /* Pods-GSToggleSwitch_Example-acknowledgements.plist */,
+				57914AD5385FD71F481B3177B42EBFD6 /* Pods-GSToggleSwitch_Example-dummy.m */,
+				A1B1000E4E26C4C03ACC363F5EDC33AC /* Pods-GSToggleSwitch_Example-frameworks.sh */,
+				2FF9C202907E4CE7142B98CDDEA352ED /* Pods-GSToggleSwitch_Example-Info.plist */,
+				155BA1863B91D8E73612684AD22D9688 /* Pods-GSToggleSwitch_Example-umbrella.h */,
+				7EC12A2E2349D8EBC65BD19E666E7A89 /* Pods-GSToggleSwitch_Example.debug.xcconfig */,
+				DB420552E1960B5ECEA284F85AFBBBBE /* Pods-GSToggleSwitch_Example.release.xcconfig */,
 			);
-			path = Classes;
+			name = "Pods-GSToggleSwitch_Example";
+			path = "Target Support Files/Pods-GSToggleSwitch_Example";
 			sourceTree = "<group>";
 		};
-		BAEB2AA7390662AA60C541E5FCCD32BF /* Pods-ToggleSwitch_Example */ = {
+		936FC47A2C19750C00D29B46 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				10EE6FBA7378FD960A5135FFCB44385A /* Pods-ToggleSwitch_Example.modulemap */,
-				B75384AC40FE66226511CC66BF6E750D /* Pods-ToggleSwitch_Example-acknowledgements.markdown */,
-				63074C692FD74B2E9345254A076BCCBE /* Pods-ToggleSwitch_Example-acknowledgements.plist */,
-				80471C199BA63FD314614AF9095D23BE /* Pods-ToggleSwitch_Example-dummy.m */,
-				F65B49CA6D7F6E1475164978B2DB17E1 /* Pods-ToggleSwitch_Example-frameworks.sh */,
-				6CC94931F4D3D6EC309BBD969BBB4A12 /* Pods-ToggleSwitch_Example-Info.plist */,
-				965059DC5AF1B6E911E561F39EE389B3 /* Pods-ToggleSwitch_Example-umbrella.h */,
-				36A868CE04811CFF6B50CD00C7363918 /* Pods-ToggleSwitch_Example.debug.xcconfig */,
-				802F02C9B86B7D8EFBAD8817B4F20CB8 /* Pods-ToggleSwitch_Example.release.xcconfig */,
+				936FC4772C19750C00D29B46 /* ThumbView.swift */,
+				936FC4782C19750C00D29B46 /* ToggleProperties.swift */,
+				936FC4792C19750C00D29B46 /* GSToggleSwitch.swift */,
 			);
-			name = "Pods-ToggleSwitch_Example";
-			path = "Target Support Files/Pods-ToggleSwitch_Example";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				02BF9E605174FC323FEE2068B2A84A24 /* Development Pods */,
+				54A3F6192A1A785A20A784D0AC4485D6 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9210DB282C44302CDAD6EC718316C5AC /* Products */,
-				DD923E4844DECD0366118AFC325DAC67 /* Targets Support Files */,
+				84E7D4F2EAA0BD33E8149EE31995FE86 /* Products */,
+				E7C18DD9051FB7E62FE48D96D263DE76 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,109 +212,115 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DD923E4844DECD0366118AFC325DAC67 /* Targets Support Files */ = {
+		D42A83CF3EE42BF528AFBE6E4E52A06E /* Pods-GSToggleSwitch_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				BAEB2AA7390662AA60C541E5FCCD32BF /* Pods-ToggleSwitch_Example */,
-				3D75F2CEFE95496C5D139228727A8A03 /* Pods-ToggleSwitch_Tests */,
+				7BBBDDDF9101645447D0B7B5C3484381 /* Pods-GSToggleSwitch_Tests.modulemap */,
+				F64CFAFBF56A07A866382BEAA272ABB6 /* Pods-GSToggleSwitch_Tests-acknowledgements.markdown */,
+				F7CADD6FCC77F64D264C72D03B16674D /* Pods-GSToggleSwitch_Tests-acknowledgements.plist */,
+				FF34B3538B08F9FFEF33509F782517C1 /* Pods-GSToggleSwitch_Tests-dummy.m */,
+				C03F0F9AB4C86A1542D901BE6ED35129 /* Pods-GSToggleSwitch_Tests-Info.plist */,
+				D381ACCFB0C3AB7FD9E06208AE6963C3 /* Pods-GSToggleSwitch_Tests-umbrella.h */,
+				E5C0B6E6B83C69F62D447E95B066DE79 /* Pods-GSToggleSwitch_Tests.debug.xcconfig */,
+				32347FB41F37E8CEE569318D86C48EB8 /* Pods-GSToggleSwitch_Tests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-GSToggleSwitch_Tests";
+			path = "Target Support Files/Pods-GSToggleSwitch_Tests";
 			sourceTree = "<group>";
 		};
-		E55185F008FDD2812F83FDF3F5E73B54 /* Pod */ = {
+		E7C18DD9051FB7E62FE48D96D263DE76 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2728DA4E65C6BD20356992D8F694136F /* LICENSE */,
-				EA8EAF86C50AECA7B33A0053D0F58C83 /* README.md */,
-				CD7EE41530C312B62C0D363C21296DFC /* GSToggleSwitch.podspec */,
+				92FA4BB078259E3652B7971358F4B0DE /* Pods-GSToggleSwitch_Example */,
+				D42A83CF3EE42BF528AFBE6E4E52A06E /* Pods-GSToggleSwitch_Tests */,
 			);
-			name = Pod;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		032FE6F1BAFEF219D194CF82A4DB4F85 /* Headers */ = {
+		294C7D952E75CDA354BA6407C1E42E3B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF90597913815CD582A520B0A3648DB0 /* Pods-ToggleSwitch_Tests-umbrella.h in Headers */,
+				7CF43AEE504B47D3DDC4392943C5D302 /* GSToggleSwitch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60AB1173BDB7D8F72AC304DF732746AB /* Headers */ = {
+		6E9F5B2DA73E1E1DCD5AB9B695B5DFA8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5457410FF9B82283A8855498BB150E /* Pods-ToggleSwitch_Example-umbrella.h in Headers */,
+				D212D9122B890C4829B570C91AC3BC1F /* Pods-GSToggleSwitch_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9F5E6D0FF4D8D742C90796EFB25DB1B /* Headers */ = {
+		AA951060C579A675A92871657DD2E798 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B9890BBF0D205C0FF6BBA751597DA7 /* ToggleSwitch-umbrella.h in Headers */,
+				E6FBAFA5EF54C0ACC32E29BE7A204A0C /* Pods-GSToggleSwitch_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		21259D6369A1C9B0F74E34E9D78DA07E /* Pods-ToggleSwitch_Example */ = {
+		81641DDDB8E96C61F75D552F496E8101 /* Pods-GSToggleSwitch_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACACB3CBD20A3C65CA70475A260FA744 /* Build configuration list for PBXNativeTarget "Pods-ToggleSwitch_Example" */;
+			buildConfigurationList = 1041F8A2627B69FBCD04A0FE086FFADB /* Build configuration list for PBXNativeTarget "Pods-GSToggleSwitch_Tests" */;
 			buildPhases = (
-				60AB1173BDB7D8F72AC304DF732746AB /* Headers */,
-				4869D0E548DEC75AC397584BB8151475 /* Sources */,
-				1C653457030E1886CEA2B3FE1515ED91 /* Frameworks */,
-				BEAD56517DC5C647523C73214B20A632 /* Resources */,
+				AA951060C579A675A92871657DD2E798 /* Headers */,
+				1541163249A15B642F454424518165D6 /* Sources */,
+				BD4A3B7ED3D6DC98D74EC906E4BF35FA /* Frameworks */,
+				8A3E98E8EA0AEC6A01171E61B4EBF65D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BEC9843DB3612A433D5B2C085573F7F9 /* PBXTargetDependency */,
+				D71985513162419D3DA14B028C973EDA /* PBXTargetDependency */,
 			);
-			name = "Pods-ToggleSwitch_Example";
-			productName = Pods_ToggleSwitch_Example;
-			productReference = 7CD5FEE5D2935F146EC01EB5220FFF37 /* Pods_ToggleSwitch_Example.framework */;
+			name = "Pods-GSToggleSwitch_Tests";
+			productName = Pods_GSToggleSwitch_Tests;
+			productReference = ACC9400BDB9B2022492ECE6C0889B35A /* Pods_GSToggleSwitch_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A04A47369BB2BF6C61FBD5F559CDF69B /* Pods-ToggleSwitch_Tests */ = {
+		AEAE43D277F3A1E4D29C1D1C559C4ED2 /* Pods-GSToggleSwitch_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80DF797E2512AA821DAF88395B212B71 /* Build configuration list for PBXNativeTarget "Pods-ToggleSwitch_Tests" */;
+			buildConfigurationList = BC5F08A6E50AA97CA6F36C1A8ED50F81 /* Build configuration list for PBXNativeTarget "Pods-GSToggleSwitch_Example" */;
 			buildPhases = (
-				032FE6F1BAFEF219D194CF82A4DB4F85 /* Headers */,
-				9116EEAAAC6C4D5F677972955322B53F /* Sources */,
-				8D159D9456D08507EFCD1D3D090353F4 /* Frameworks */,
-				D60EE005851070DC0E19125D3C71B3ED /* Resources */,
+				6E9F5B2DA73E1E1DCD5AB9B695B5DFA8 /* Headers */,
+				698EEC3827E48EB6734EDEC573B56AFF /* Sources */,
+				81DF7AF01F6B23D703E49A86EF342B93 /* Frameworks */,
+				9709A8DED2874EBC13C7C2373777AE70 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1DCF72818AC3B58F99D735BD136004C4 /* PBXTargetDependency */,
+				3567F20D1243BBB8D42D20523C37D6D2 /* PBXTargetDependency */,
 			);
-			name = "Pods-ToggleSwitch_Tests";
-			productName = Pods_ToggleSwitch_Tests;
-			productReference = F9F44D559337F446FBB2B16D6CC90FA4 /* Pods_ToggleSwitch_Tests.framework */;
+			name = "Pods-GSToggleSwitch_Example";
+			productName = Pods_GSToggleSwitch_Example;
+			productReference = 901D5D3F1D1CA0E8E8ADB3526F0F8E10 /* Pods_GSToggleSwitch_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BA8B4F535EC9674B19DDB29B01B264ED /* ToggleSwitch */ = {
+		D41C5D6C287AB62AA0E16ACB7B5C7C6D /* GSToggleSwitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A69EFD62E6F05C1F86F2D6F3B4B98143 /* Build configuration list for PBXNativeTarget "ToggleSwitch" */;
+			buildConfigurationList = 6D7FF2092C374C705EFE07479B9A770B /* Build configuration list for PBXNativeTarget "GSToggleSwitch" */;
 			buildPhases = (
-				F9F5E6D0FF4D8D742C90796EFB25DB1B /* Headers */,
-				BEA03994726326C542C7D451206EBE3D /* Sources */,
-				0B4D9CBFF71E7448B03745F96C43486C /* Frameworks */,
-				3E3DD1C9EE41F53A1AAA3C5D70A4B936 /* Resources */,
+				294C7D952E75CDA354BA6407C1E42E3B /* Headers */,
+				E765D3915D90067BADC84DF95BA57557 /* Sources */,
+				51E279BD448FB6AE654E7C93D73ED48D /* Frameworks */,
+				F8E3B7D4194A1F1E39E0D467D08C9740 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ToggleSwitch;
-			productName = ToggleSwitch;
-			productReference = A2EA7B6E797A55CD3784AF245740F88D /* ToggleSwitch */;
+			name = GSToggleSwitch;
+			productName = GSToggleSwitch;
+			productReference = 5147DFC3F6C4B03734751718D4C1C727 /* GSToggleSwitch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -341,33 +341,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9210DB282C44302CDAD6EC718316C5AC /* Products */;
+			productRefGroup = 84E7D4F2EAA0BD33E8149EE31995FE86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21259D6369A1C9B0F74E34E9D78DA07E /* Pods-ToggleSwitch_Example */,
-				A04A47369BB2BF6C61FBD5F559CDF69B /* Pods-ToggleSwitch_Tests */,
-				BA8B4F535EC9674B19DDB29B01B264ED /* ToggleSwitch */,
+				D41C5D6C287AB62AA0E16ACB7B5C7C6D /* GSToggleSwitch */,
+				AEAE43D277F3A1E4D29C1D1C559C4ED2 /* Pods-GSToggleSwitch_Example */,
+				81641DDDB8E96C61F75D552F496E8101 /* Pods-GSToggleSwitch_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3E3DD1C9EE41F53A1AAA3C5D70A4B936 /* Resources */ = {
+		8A3E98E8EA0AEC6A01171E61B4EBF65D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEAD56517DC5C647523C73214B20A632 /* Resources */ = {
+		9709A8DED2874EBC13C7C2373777AE70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D60EE005851070DC0E19125D3C71B3ED /* Resources */ = {
+		F8E3B7D4194A1F1E39E0D467D08C9740 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,54 +377,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4869D0E548DEC75AC397584BB8151475 /* Sources */ = {
+		1541163249A15B642F454424518165D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82F845CF7CBD386B56BF4AE9E744BFAF /* Pods-ToggleSwitch_Example-dummy.m in Sources */,
+				E0D5859C71EAA14EA47B7405E62371EE /* Pods-GSToggleSwitch_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9116EEAAAC6C4D5F677972955322B53F /* Sources */ = {
+		698EEC3827E48EB6734EDEC573B56AFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DA4287E466F4207950A74818BE6621B /* Pods-ToggleSwitch_Tests-dummy.m in Sources */,
+				367E5310866E5778A8914E4506F504DC /* Pods-GSToggleSwitch_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEA03994726326C542C7D451206EBE3D /* Sources */ = {
+		E765D3915D90067BADC84DF95BA57557 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93850C492C186E0C0086A1EF /* ToggleProperties.swift in Sources */,
-				93850C482C186E0C0086A1EF /* ThumbView.swift in Sources */,
-				19AF4CCECEC02C4FFC9145BDAA74EF1D /* ToggleSwitch-dummy.m in Sources */,
-				93850C4A2C186E0C0086A1EF /* ToggleSwitch.swift in Sources */,
+				11EB4A5B66BA137FF64F4976080BAAF5 /* GSToggleSwitch-dummy.m in Sources */,
+				936FC47D2C19750C00D29B46 /* GSToggleSwitch.swift in Sources */,
+				936FC47B2C19750C00D29B46 /* ThumbView.swift in Sources */,
+				936FC47C2C19750C00D29B46 /* ToggleProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1DCF72818AC3B58F99D735BD136004C4 /* PBXTargetDependency */ = {
+		3567F20D1243BBB8D42D20523C37D6D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-ToggleSwitch_Example";
-			target = 21259D6369A1C9B0F74E34E9D78DA07E /* Pods-ToggleSwitch_Example */;
-			targetProxy = FE87CB0F3CACC77811827F2AF43AF413 /* PBXContainerItemProxy */;
+			name = GSToggleSwitch;
+			target = D41C5D6C287AB62AA0E16ACB7B5C7C6D /* GSToggleSwitch */;
+			targetProxy = A398895FACB8E8DA707157CF67D2C631 /* PBXContainerItemProxy */;
 		};
-		BEC9843DB3612A433D5B2C085573F7F9 /* PBXTargetDependency */ = {
+		D71985513162419D3DA14B028C973EDA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ToggleSwitch;
-			target = BA8B4F535EC9674B19DDB29B01B264ED /* ToggleSwitch */;
-			targetProxy = 98C62F154A623602CE0C82601DBDD501 /* PBXContainerItemProxy */;
+			name = "Pods-GSToggleSwitch_Example";
+			target = AEAE43D277F3A1E4D29C1D1C559C4ED2 /* Pods-GSToggleSwitch_Example */;
+			targetProxy = F82E18F5C55B9E6AB5BB41DFF01268C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		230624E7F8F7B29A2FACBFE4B29D38B2 /* Debug */ = {
+		151D6B11F435C26987B46C4BA20161B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242D92ECF61143F2236C5100DD177CF7 /* ToggleSwitch.debug.xcconfig */;
+			baseConfigurationReference = 70FF886FBBEDF223E376EB769D39A273 /* GSToggleSwitch.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -435,27 +435,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ToggleSwitch/ToggleSwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ToggleSwitch/ToggleSwitch-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GSToggleSwitch/GSToggleSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSToggleSwitch/GSToggleSwitch-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ToggleSwitch/ToggleSwitch.modulemap";
-				PRODUCT_MODULE_NAME = ToggleSwitch;
-				PRODUCT_NAME = ToggleSwitch;
+				MODULEMAP_FILE = "Target Support Files/GSToggleSwitch/GSToggleSwitch.modulemap";
+				PRODUCT_MODULE_NAME = GSToggleSwitch;
+				PRODUCT_NAME = GSToggleSwitch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		4CE4189AC566DCD4A8205DEB65B804F7 /* Release */ = {
+		3546FD58745B9F16B5A8E98FA60CE610 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 802F02C9B86B7D8EFBAD8817B4F20CB8 /* Pods-ToggleSwitch_Example.release.xcconfig */;
+			baseConfigurationReference = DB420552E1960B5ECEA284F85AFBBBBE /* Pods-GSToggleSwitch_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -467,12 +468,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ToggleSwitch_Example/Pods-ToggleSwitch_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GSToggleSwitch_Example/Pods-GSToggleSwitch_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ToggleSwitch_Example/Pods-ToggleSwitch_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-GSToggleSwitch_Example/Pods-GSToggleSwitch_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -486,6 +487,137 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4313D644E58580A51B5BFF481EB6A83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32347FB41F37E8CEE569318D86C48EB8 /* Pods-GSToggleSwitch_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GSToggleSwitch_Tests/Pods-GSToggleSwitch_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSToggleSwitch_Tests/Pods-GSToggleSwitch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4ED90D9224CA2B82E2373AE4F0B78868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EC12A2E2349D8EBC65BD19E666E7A89 /* Pods-GSToggleSwitch_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GSToggleSwitch_Example/Pods-GSToggleSwitch_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSToggleSwitch_Example/Pods-GSToggleSwitch_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66003DDC6E3F98A578A67CF9DDDEE0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754F07930520C371667E0BDF6A35648C /* GSToggleSwitch.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GSToggleSwitch/GSToggleSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSToggleSwitch/GSToggleSwitch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GSToggleSwitch/GSToggleSwitch.modulemap";
+				PRODUCT_MODULE_NAME = GSToggleSwitch;
+				PRODUCT_NAME = GSToggleSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73CB155A425888F67EB1DCFF592F70BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C0B6E6B83C69F62D447E95B066DE79 /* Pods-GSToggleSwitch_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GSToggleSwitch_Tests/Pods-GSToggleSwitch_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSToggleSwitch_Tests/Pods-GSToggleSwitch_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -545,105 +677,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		986C0D5B13EDA684AEA94B492D17F6F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC00109EB1DCBB92FA1E05EFC72A6078 /* ToggleSwitch.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ToggleSwitch/ToggleSwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ToggleSwitch/ToggleSwitch-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ToggleSwitch/ToggleSwitch.modulemap";
-				PRODUCT_MODULE_NAME = ToggleSwitch;
-				PRODUCT_NAME = ToggleSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B1FE875F22BE82F5046D67D12F844760 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC6B9E4AA3A003E7A054EE22BC4A5444 /* Pods-ToggleSwitch_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ToggleSwitch_Tests/Pods-ToggleSwitch_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ToggleSwitch_Tests/Pods-ToggleSwitch_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B3B6B53A4BD36E6B6088CD118723A077 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 353B8D2659964AAA2CAD6A545EF6F8E6 /* Pods-ToggleSwitch_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ToggleSwitch_Tests/Pods-ToggleSwitch_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ToggleSwitch_Tests/Pods-ToggleSwitch_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -713,42 +746,18 @@
 			};
 			name = Debug;
 		};
-		DA8265F8F1DA2249C1D455EB2952AB91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36A868CE04811CFF6B50CD00C7363918 /* Pods-ToggleSwitch_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ToggleSwitch_Example/Pods-ToggleSwitch_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ToggleSwitch_Example/Pods-ToggleSwitch_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1041F8A2627B69FBCD04A0FE086FFADB /* Build configuration list for PBXNativeTarget "Pods-GSToggleSwitch_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73CB155A425888F67EB1DCFF592F70BA /* Debug */,
+				4313D644E58580A51B5BFF481EB6A83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -758,29 +767,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80DF797E2512AA821DAF88395B212B71 /* Build configuration list for PBXNativeTarget "Pods-ToggleSwitch_Tests" */ = {
+		6D7FF2092C374C705EFE07479B9A770B /* Build configuration list for PBXNativeTarget "GSToggleSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1FE875F22BE82F5046D67D12F844760 /* Debug */,
-				B3B6B53A4BD36E6B6088CD118723A077 /* Release */,
+				66003DDC6E3F98A578A67CF9DDDEE0E0 /* Debug */,
+				151D6B11F435C26987B46C4BA20161B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A69EFD62E6F05C1F86F2D6F3B4B98143 /* Build configuration list for PBXNativeTarget "ToggleSwitch" */ = {
+		BC5F08A6E50AA97CA6F36C1A8ED50F81 /* Build configuration list for PBXNativeTarget "Pods-GSToggleSwitch_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				230624E7F8F7B29A2FACBFE4B29D38B2 /* Debug */,
-				986C0D5B13EDA684AEA94B492D17F6F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACACB3CBD20A3C65CA70475A260FA744 /* Build configuration list for PBXNativeTarget "Pods-ToggleSwitch_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA8265F8F1DA2249C1D455EB2952AB91 /* Debug */,
-				4CE4189AC566DCD4A8205DEB65B804F7 /* Release */,
+				4ED90D9224CA2B82E2373AE4F0B78868 /* Debug */,
+				3546FD58745B9F16B5A8E98FA60CE610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

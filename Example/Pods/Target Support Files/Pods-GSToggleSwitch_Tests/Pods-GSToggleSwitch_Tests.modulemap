@@ -1,0 +1,6 @@
+framework module Pods_GSToggleSwitch_Tests {
+  umbrella header "Pods-GSToggleSwitch_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

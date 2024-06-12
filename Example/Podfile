@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '10.0'
 
-target 'ToggleSwitch_Example' do
-  pod 'GSToggleSwitch'
+target 'GSToggleSwitch_Example' do
+  pod 'GSToggleSwitch', :path => '../'
 
-  target 'ToggleSwitch_Tests' do
+  target 'GSToggleSwitch_Tests' do
     inherit! :search_paths
 
     

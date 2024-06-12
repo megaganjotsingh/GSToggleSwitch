@@ -1,51 +1,29 @@
-# ToggleSwitch
+# GSToggleSwitch
 
-The ToggleSwitch library is a lightweight and easy-to-use solution for implementing customizable toggle switches in your iOS, MacOS and AppleVision projects. Designed to offer a visually appealing and interactive way to represent binary states (like on/off), this library is ideal for enhancing user interfaces with intuitive toggle controls.
+[![CI Status](https://img.shields.io/travis/megaganjotsingh/GSToggleSwitch.svg?style=flat)](https://travis-ci.org/megaganjotsingh/GSToggleSwitch)
+[![Version](https://img.shields.io/cocoapods/v/GSToggleSwitch.svg?style=flat)](https://cocoapods.org/pods/GSToggleSwitch)
+[![License](https://img.shields.io/cocoapods/l/GSToggleSwitch.svg?style=flat)](https://cocoapods.org/pods/GSToggleSwitch)
+[![Platform](https://img.shields.io/cocoapods/p/GSToggleSwitch.svg?style=flat)](https://cocoapods.org/pods/GSToggleSwitch)
 
-Demo
-  ---
+## Example
 
-![](https://github.com/megaganjotsingh/ToggleSwitch/blob/main/Gifs/sample.gif)
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-Installation
- ---
+## Requirements
 
-### [CocoaPods](http://cocoapods.org)
+## Installation
 
-  
-  To install GSToggleSwitch using CocoaPods, integrate it in your existing Podfile, or create a new Podfile:
-  
-  `  pod 'GSToggleSwitch', '~> 0.1'  `
-  
-### [Carthage](https://github.com/Carthage/Carthage)
+GSToggleSwitch is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-  To install add the following line to your Cartfile:
+```ruby
+pod 'GSToggleSwitch'
+```
 
-  `github "megaganjotsingh/GSToggleSwitch" "main"`
+## Author
 
-Easy to Use
-  ---
-  
-  ### You can simply set all the properties in simple way
+megaganjotsingh, megaganjotsingh@gmail.com
 
-  ```swift
-         toggleSwitch.set(
-            properties: { prop in
-                prop.width = 40
-                prop.height = 20
-                prop.cornerRadius = 10
-                prop.onBackgroundColor = .green
-                prop.thumbProperties.showThumbShadow = true
-                prop.thumbProperties.backgroundColor = .white
-            },
-            tapOnSwitch: { [weak self] in
-                guard let self = self else { return .off }
-                return self.toggle1.currentState
-            }
-        )
-  ```
-  
-  Collaboration
----
+## License
 
-I tried to build an easy to use API, but I'm sure there are ways of improving and adding more features, If you think that we can do the ToggleSwitch more powerful please contribute with this project.
+GSToggleSwitch is available under the MIT license. See the LICENSE file for more info.

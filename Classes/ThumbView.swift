@@ -46,7 +46,7 @@ class ThumbView: UIView {
         }
     }
     
-    func setImage(withState state: ToggleSwitch.State) {
+    func setImage(withState state: GSToggleSwitch.State) {
         let image = state == .on ? properties.thumbOnImage : properties.thumbOffImage
         UIView.transition(with: imageView, duration: 0.3, options: .transitionCrossDissolve) { [weak self] in
             self?.imageView.image = image

@@ -1,5 +1,5 @@
 import XCTest
-import ToggleSwitch
+import GSToggleSwitch
 
 class Tests: XCTestCase {
     

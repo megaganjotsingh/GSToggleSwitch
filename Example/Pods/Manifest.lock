@@ -2,15 +2,15 @@ PODS:
   - GSToggleSwitch (0.1.0)
 
 DEPENDENCIES:
-  - GSToggleSwitch
+  - GSToggleSwitch (from `../`)
 
-SPEC REPOS:
-  trunk:
-    - GSToggleSwitch
+EXTERNAL SOURCES:
+  GSToggleSwitch:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  GSToggleSwitch: 5f105949c7b6719f145110cb78ef71de5fc65252
+  GSToggleSwitch: 54f5d3f8d114fb077431e352d11b9e5aa4889b3f
 
-PODFILE CHECKSUM: 304b638bdd580f94a270fad5a4e92a0a5b23e9c6
+PODFILE CHECKSUM: cdfb4c22e1b3878552c70145d1f1cbd760733408
 
 COCOAPODS: 1.14.3

@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint ToggleSwitch.podspec' to ensure this is a
+# Be sure to run `pod lib lint GSToggleSwitch.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GSToggleSwitch'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'An animate switch collection, Add Beautiful Customise Switch in your application to boost UI and UX.'
 
 # This description is used to generate tags and improve search results.
@@ -28,12 +28,12 @@ The ToggleSwitch library is a lightweight and easy-to-use solution for implement
   s.source           = { :git => 'https://github.com/megaganjotsingh/GSToggleSwitch.git', :tag => s.version.to_s }
   # s.social_media_url = 'www.linkedin.com/in/gaganjot-singh-40b40b100'
 
-  s.ios.deployment_target = '10.0'
-  s.swift_version = '5.0'
+  s.ios.deployment_target = '12.0'
+
   s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
-  #   'ToggleSwitch' => ['ToggleSwitch/Assets/*.png']
+  #   'GSToggleSwitch' => ['GSToggleSwitch/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
