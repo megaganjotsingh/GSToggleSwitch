@@ -35,7 +35,7 @@ open class GSToggleSwitchView: UIView {
         super.init(frame: frame)
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         super.init(coder: coder)
         setupUI()
     }
@@ -47,7 +47,7 @@ open class GSToggleSwitchView: UIView {
         setupUI()
     }
     
-    override var intrinsicContentSize: CGSize {
+    open override var intrinsicContentSize: CGSize {
         CGSize(width: properties.width, height: properties.height)
     }
     

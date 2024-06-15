@@ -15,7 +15,7 @@
 		7CF43AEE504B47D3DDC4392943C5D302 /* GSToggleSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 779DD6A42C2DFC99FB99C1FC366D73F0 /* GSToggleSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		936FC47B2C19750C00D29B46 /* ThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936FC4772C19750C00D29B46 /* ThumbView.swift */; };
 		936FC47C2C19750C00D29B46 /* ToggleProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936FC4782C19750C00D29B46 /* ToggleProperties.swift */; };
-		936FC47D2C19750C00D29B46 /* GSToggleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936FC4792C19750C00D29B46 /* GSToggleSwitch.swift */; };
+		936FC47D2C19750C00D29B46 /* GSToggleSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936FC4792C19750C00D29B46 /* GSToggleSwitchView.swift */; };
 		D212D9122B890C4829B570C91AC3BC1F /* Pods-GSToggleSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 155BA1863B91D8E73612684AD22D9688 /* Pods-GSToggleSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0D5859C71EAA14EA47B7405E62371EE /* Pods-GSToggleSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF34B3538B08F9FFEF33509F782517C1 /* Pods-GSToggleSwitch_Tests-dummy.m */; };
 		E6FBAFA5EF54C0ACC32E29BE7A204A0C /* Pods-GSToggleSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D381ACCFB0C3AB7FD9E06208AE6963C3 /* Pods-GSToggleSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -60,7 +60,7 @@
 		936FA3F37B8EC9FB181A480B8CA2C72A /* Pods-GSToggleSwitch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSToggleSwitch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		936FC4772C19750C00D29B46 /* ThumbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbView.swift; sourceTree = "<group>"; };
 		936FC4782C19750C00D29B46 /* ToggleProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleProperties.swift; sourceTree = "<group>"; };
-		936FC4792C19750C00D29B46 /* GSToggleSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSToggleSwitch.swift; sourceTree = "<group>"; };
+		936FC4792C19750C00D29B46 /* GSToggleSwitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSToggleSwitchView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1B1000E4E26C4C03ACC363F5EDC33AC /* Pods-GSToggleSwitch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSToggleSwitch_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ACC9400BDB9B2022492ECE6C0889B35A /* Pods_GSToggleSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSToggleSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,7 +188,7 @@
 			children = (
 				936FC4772C19750C00D29B46 /* ThumbView.swift */,
 				936FC4782C19750C00D29B46 /* ToggleProperties.swift */,
-				936FC4792C19750C00D29B46 /* GSToggleSwitch.swift */,
+				936FC4792C19750C00D29B46 /* GSToggleSwitchView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -398,7 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11EB4A5B66BA137FF64F4976080BAAF5 /* GSToggleSwitch-dummy.m in Sources */,
-				936FC47D2C19750C00D29B46 /* GSToggleSwitch.swift in Sources */,
+				936FC47D2C19750C00D29B46 /* GSToggleSwitchView.swift in Sources */,
 				936FC47B2C19750C00D29B46 /* ThumbView.swift in Sources */,
 				936FC47C2C19750C00D29B46 /* ToggleProperties.swift in Sources */,
 			);
