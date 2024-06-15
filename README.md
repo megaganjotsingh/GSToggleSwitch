@@ -17,7 +17,7 @@ GSToggleSwitch is available through [CocoaPods](https://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'GSToggleSwitch'
+pod 'GSToggleSwitch', '~> 0.3'
 ```
 
 ## Author
