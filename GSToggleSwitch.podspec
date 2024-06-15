@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GSToggleSwitch'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'An animate switch collection, Add Beautiful Customise Switch in your application to boost UI and UX.'
 
 # This description is used to generate tags and improve search results.
@@ -25,6 +25,7 @@ The ToggleSwitch library is a lightweight and easy-to-use solution for implement
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'megaganjotsingh' => 'megaganjotsingh@gmail.com' }
+  s.swift_version = '5.0'
   s.source           = { :git => 'https://github.com/megaganjotsingh/GSToggleSwitch.git', :tag => s.version.to_s }
   # s.social_media_url = 'www.linkedin.com/in/gaganjot-singh-40b40b100'
 
