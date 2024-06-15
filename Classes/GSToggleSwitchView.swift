@@ -9,16 +9,16 @@ import Foundation
 import UIKit.UIView
 
 open class GSToggleSwitchView: UIView {
-    enum State {
+    public enum State {
         case on
         case off
     }
     
-    var thumb: ThumbView = .init()
-    var onBackgroundView: UIView = .init()
-    var tapOnSwitch: (() -> (State?))?
-    var properties = ToggleProperties()
-    var currentState: State {
+    public var thumb: ThumbView = .init()
+    public var onBackgroundView: UIView = .init()
+    open var tapOnSwitch: (() -> (State?))?
+    open var properties = ToggleProperties()
+    public var currentState: State {
         get {
             thumb.frame.origin.x == 0 ? .off : .on
         }
@@ -27,7 +27,7 @@ open class GSToggleSwitchView: UIView {
         }
     }
     
-    var oppositeState: State {
+    public var oppositeState: State {
         currentState == .on ? .off : .on
     }
     
@@ -37,10 +37,10 @@ open class GSToggleSwitchView: UIView {
     
     required public init?(coder: NSCoder) {
         super.init(coder: coder)
-        setupUI()
+//        setupUI()
     }
     
-    func set(properties: @escaping (inout ToggleProperties) -> (), tapOnSwitch: @escaping () -> (State?)) {
+    public func set(properties: @escaping (inout ToggleProperties) -> (), tapOnSwitch: @escaping () -> (State?)) {
         self.tapOnSwitch = tapOnSwitch
         properties(&self.properties)
         thumb.properties = self.properties.thumbProperties

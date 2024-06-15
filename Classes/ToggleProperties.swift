@@ -8,19 +8,19 @@
 import Foundation
 import UIKit.UIColor
 
-struct ToggleProperties {
-    var width: CGFloat = 60
-    var height: CGFloat = 30
-    var cornerRadius: CGFloat = 15
-    var backgroundColor: UIColor = .gray
-    var onBackgroundColor: UIColor = .yellow
-    lazy var thumbProperties: ThumbProperties = .init(cornerRadius: cornerRadius)
+public struct ToggleProperties {
+    public var width: CGFloat = 60
+    public var height: CGFloat = 30
+    public var cornerRadius: CGFloat = 15
+    public var backgroundColor: UIColor = .gray
+    public var onBackgroundColor: UIColor = .yellow
+    public lazy var thumbProperties: ThumbProperties = .init(cornerRadius: cornerRadius)
     
-    struct ThumbProperties {
-        var backgroundColor: UIColor = .red
-        var showThumbShadow: Bool = true
-        var thumbOffImage: UIImage?
-        var thumbOnImage: UIImage?
-        var cornerRadius: CGFloat
+    public struct ThumbProperties {
+        public var backgroundColor: UIColor = .red
+        public var showThumbShadow: Bool = true
+        public var thumbOffImage: UIImage?
+        public var thumbOnImage: UIImage?
+        public var cornerRadius: CGFloat
     }
 }

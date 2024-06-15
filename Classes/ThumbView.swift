@@ -8,8 +8,8 @@
 import Foundation
 import UIKit.UIView
 
-class ThumbView: UIView {
-    var properties: ToggleProperties.ThumbProperties = .init(cornerRadius: 10)
+open class ThumbView: UIView {
+    open var properties: ToggleProperties.ThumbProperties = .init(cornerRadius: 10)
     
     private var imageView: UIImageView = .init()
     
@@ -19,7 +19,7 @@ class ThumbView: UIView {
         updateProperties()
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         super.init(coder: coder)
         setUpUI()
         updateProperties()
@@ -30,7 +30,7 @@ class ThumbView: UIView {
         addSubview(imageView)
     }
     
-    override func layoutSubviews() {
+    open override func layoutSubviews() {
         imageView.frame = CGRect(origin: CGPoint(x: 4, y: 4), size: CGSize(width: frame.width - 8, height: frame.height - 8))
     }
     
