@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GSToggleSwitch'
-  s.version          = '0.2'
+  s.version          = '0.3'
   s.summary          = 'An animate switch collection, Add Beautiful Customise Switch in your application to boost UI and UX.'
 
 # This description is used to generate tags and improve search results.
