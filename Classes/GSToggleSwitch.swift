@@ -8,7 +8,7 @@
 import Foundation
 import UIKit.UIView
 
-class GSToggleSwitch: UIView {
+open class GSToggleSwitchView: UIView {
     enum State {
         case on
         case off
