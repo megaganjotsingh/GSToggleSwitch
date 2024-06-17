@@ -78,7 +78,7 @@ open class GSToggleSwitchView: UIView {
     func selfProperties() {
         backgroundColor = properties.backgroundColor
         layer.cornerRadius = properties.cornerRadius
-        layer.shadowColor = UIColor.black.withAlphaComponent(0.4).cgColor
+        layer.shadowColor = properties.shadowColor.cgColor
         layer.masksToBounds = false
         layer.shadowRadius = 3
     }

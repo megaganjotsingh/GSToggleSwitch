@@ -13,6 +13,7 @@ public struct ToggleProperties {
     public var height: CGFloat = 30
     public var cornerRadius: CGFloat = 15
     public var backgroundColor: UIColor = .gray
+    public var shadowColor: UIColor = UIColor.black.withAlphaComponent(0.4)
     public var onBackgroundColor: UIColor = .yellow
     public lazy var thumbProperties: ThumbProperties = .init(cornerRadius: cornerRadius)
     
